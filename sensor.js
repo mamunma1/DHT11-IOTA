@@ -1,5 +1,5 @@
 /*
-Author: Robert Lie (mobilefish.com)
+
 
 The sensor.js file reads DHT11 sensor data (temperature and humidity) and displays in on the console.
 This file will only work a Raspberry Pi.
@@ -16,9 +16,7 @@ Usage:
     Type: npm uninstall node-dht-sensor
     Type: npm install node-dht-sensor --dht_verbose=false
 
-More information:
-https://www.mobilefish.com/developer/iota/iota_quickguide_raspi_mam.html
-*/
+
 const sensor = require('node-dht-sensor');
 
 const TIMEINTERVAL = 10; // seconds
